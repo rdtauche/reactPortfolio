@@ -23,7 +23,7 @@ const styles = {
 function CardAbout() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>About Me</div>
+      <div style={styles.heading} id="about-me">About Me</div>
       <div style={styles.content}>
         `Welcome to my Portfolio Page! I am a full stack developer with a passion for creating and designing web applications. I have experience with HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am excited to continue learning and growing as a developer.`
       </div>
