@@ -27,7 +27,7 @@ function CardContact() {
       <ul style={styles.content}>
         <li>Email: ross.tauchert@gmail.com</li>
         <li>Phone: 555-555-5555</li>
-        <li>LinkedIn: linkedin.com/in/ross-tauchert</li>
+        <li>LinkedIn: https://www.linkedin.com/in/ross-tauchert-9489079/</li>
       </ul>
     </div>
   );

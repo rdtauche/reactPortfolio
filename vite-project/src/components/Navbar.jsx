@@ -14,10 +14,13 @@ const styles = {
     padding: '0 20px',
   },
   navbarStyle: {
-    background: 'black',
-    justifyContent: 'flex-end',
+    background: 'aliceblue',
+    display: 'flex',
+    justifyContent: 'center',
     minHeight: 50,
     lineHeight: 3.5,
+    padding: 10,
+    color: 'white'
   }
 };
 
@@ -26,11 +29,11 @@ function Navbar() {
   return ( 
     // how do i create navbar with links to sections of the page? 
     <nav style={styles.navbarStyle} className="navbar">
-      <ul style={styles.heading}>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#my-work">My Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul style={styles.navbarStyle}>
+        <li style={styles.navbarStyle}><a href="#about-me">About Me</a></li>
+        <li style={styles.navbarStyle}><a href="#my-work">My Work</a></li>
+        <li style={styles.navbarStyle}><a href="#resume">Resume</a></li>
+        <li style={styles.navbarStyle}><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );
