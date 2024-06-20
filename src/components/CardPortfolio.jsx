@@ -27,6 +27,11 @@ function CardPortfolio() {
       <div style={styles.content}>
         `Please find below links to my github projects: `
       </div>
+      <ul style={styles.content}>
+        <li><a href="https://rdtauche.github.io/TravelWebsite/">My Travel Website</a></li>
+        <li><a href="https://rdtauche.github.io/myPortfolioWebsite/">My Portfolio Website</a></li>
+        <li><a href="https://fxtradingbook.com/">My FX Website</a></li>
+      </ul>
     </div>
   );
 }
