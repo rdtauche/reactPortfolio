@@ -28,11 +28,10 @@ const styles = {
 function Navbar() {
   return ( 
     // how do i create navbar with links to sections of the page? 
-    <nav style={styles.navbarStyle} className="navbar">
+    <nav className="navbar">
       <ul style={styles.navbarStyle}>
         <li style={styles.navbarStyle}><a href="#about-me">About Me</a></li>
         <li style={styles.navbarStyle}><a href="#my-work">My Work</a></li>
-        <li style={styles.navbarStyle}><a href="#resume">Resume</a></li>
         <li style={styles.navbarStyle}><a href="#contact">Contact</a></li>
       </ul>
     </nav>

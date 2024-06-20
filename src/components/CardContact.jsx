@@ -22,12 +22,12 @@ const styles = {
 // We are assigning the card, heading, and content all from our `style` object
 function CardContact() {
   return (
-    <div style={styles.card}>
+    <div style={styles.card} id="contact">
       <div style={styles.heading}>Contact Me</div>
       <ul style={styles.content}>
         <li>Email: ross.tauchert@gmail.com</li>
         <li>Phone: 555-555-5555</li>
-        <li>LinkedIn: https://www.linkedin.com/in/ross-tauchert-9489079/</li>
+        <li><a href="https://www.linkedin.com/in/ross-tauchert-9489079/">My LinkedIn</a></li>
       </ul>
     </div>
   );

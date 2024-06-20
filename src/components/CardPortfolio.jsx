@@ -22,7 +22,7 @@ const styles = {
 // We are assigning the card, heading, and content all from our `style` object
 function CardPortfolio() {
   return (
-    <div style={styles.card}>
+    <div style={styles.card} id="my-work">
       <div style={styles.heading}>My Portfolio</div>
       <div style={styles.content}>
         `Please find below links to my github projects: `
