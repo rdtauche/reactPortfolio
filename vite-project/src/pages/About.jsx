@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-function AboutUs() {
+function About() {
     return (
         // this <> acts as a parent div
         <>
@@ -16,4 +16,4 @@ function AboutUs() {
     );
   }
 
-  export default AboutUs;
+  export default About;

@@ -1,5 +1,5 @@
-import AboutUs from './pages/AboutUs';
-import Signin from './pages/Signin';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
 import Landing from './pages/Landing';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -9,9 +9,9 @@ function App() {
     
     <Router>
       <Routes>
-        <Route path="/" element={<Signin />} />
-        <Route path="/landing" element={<Landing />} />
-        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
      

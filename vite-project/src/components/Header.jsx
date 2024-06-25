@@ -10,9 +10,9 @@ function Header() {
     <header className="subnav-hero-section">
     <img id="logo" src={ project2Logo }></img>
     <ul className="subnav-hero-subnav">
-    <li><Link to="/landing">Home</Link></li>
-      <li><Link to="/aboutus">About Us</Link></li>
-      <li><Link to="/">SignIn</Link></li>
+    <li><Link to="/">Home</Link></li>
+      <li><Link to="/about">About Me</Link></li>
+      <li><Link to="/portfolio">Portfolio</Link></li>
     </ul>
   </header>
   );

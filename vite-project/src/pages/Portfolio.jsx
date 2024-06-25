@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
 
-function Signin() {
+function Portfolio() {
   return (
     <>
       <Header />
@@ -77,4 +77,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default Portfolio;
