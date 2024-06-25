@@ -5,22 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "vite --port $PORT",
     "build": "vite build",
+    "serve": "vite preview",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "axios": "^1.7.2",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.5.0",
     "bootstrap": "^5.3.3",
-    "font-awesome": "^4.7.0",
     "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fontawesome": "^1.7.1",
-    "react-router-dom": "^6.24.0",
-    "stripe": "^16.0.0"
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
