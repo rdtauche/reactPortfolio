@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import TradingViewWidget from "../components/TradingViewWidget";
 import Reviews from "../components/Reviews";
 import Chatbot from "../components/Chatbot";
+import Resume from "../components/Resume";
+import Contact from "../components/Contact";
 import Stripe from "../components/Stripe";
 
 function Landing() {
@@ -10,10 +12,8 @@ function Landing() {
         // this <> acts as a parent div
         <>
       <Header />
-      <TradingViewWidget />
-      <Reviews />
-      <Chatbot />
-      <Stripe />
+      <Resume />
+      <Contact />
       <Footer />
         </>
     );
