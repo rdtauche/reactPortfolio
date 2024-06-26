@@ -67,7 +67,7 @@ const CheckoutForm = () => {
   return (
     <div id="stripe">
     <form onSubmit={handleSubmit}>
-        <h1 id="title">We Accept Donations! </h1>
+        <h1 id="title">Project #4: Integrated Stripe payment system as a react component </h1>
       <PaymentElement />
       <button id="button" type="submit" disabled={!stripe || !elements}>
         Pay

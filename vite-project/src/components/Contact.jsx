@@ -11,6 +11,8 @@ function Contact() {
         header: {
           textAlign: 'center',
           color: '#007BFF',
+          marginBottom: '0', // Add this line to remove the margin-bottom from h1
+
         },
         paragraph: {
           textAlign: 'center',

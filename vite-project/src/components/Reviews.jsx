@@ -1,7 +1,7 @@
 function Chatbot() {
     return (
       <>
-        <h1 className="reviews" id="reviews">What our Investors are Saying</h1>
+        <h1 className="reviews" id="reviews">Project #2: Created Responsive React Component for Reviews</h1>
         <div className="outerdiv">
           <div className="innerdiv">
             {/* div1 */}
