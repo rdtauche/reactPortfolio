@@ -49,7 +49,7 @@ Link to full requirements for challenge:  https://bootcampspot.instructure.com/c
     1. My Github Repo:  https://github.com/rdtauche/reactPortfolio
     2. Screenshot:  ![image](https://github.com/rdtauche/reactPortfolio/assets/57552771/865b39b3-8cac-455c-a824-f4731d9e662c)
     3. Netlify link:  https://main--subtle-bubblegum-a74240.netlify.app/
-
+    
 
 ## Usage
 
